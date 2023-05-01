@@ -1,0 +1,87 @@
+*{
+    color: black;
+    font-family: monospace;
+    font-size:20px;
+    font-weight: bold;
+}
+body{
+    background: url("./images/aurora-ga74b31a32_1920.jpg");
+}
+.heading{
+    background-color:cornflowerblue;
+    
+    text-align: center;
+}
+.container{
+    color:white;
+    display:flex;
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    margin: 50px auto;
+    
+    padding:20px;
+    box-sizing:border-box;
+    align-items: center;
+    justify-content: space-evenly;
+    flex:wrap;
+    
+
+}
+.CityName{
+    background-color: aqua;
+    border-radius: 2px;
+    margin:4px;
+    box-sizing: border-box;
+}
+.temp{
+    background-color: aqua;
+    border-radius: 2px;
+    margin:4px;
+    box-sizing: border-box;
+}
+
+.humidity{
+    background-color: aqua;
+    border-radius: 2px;
+    margin:4px;
+    box-sizing: border-box;
+}
+.windspeed{
+    background-color: aqua;
+    border-radius: 2px;
+    margin:4px;
+    box-sizing: border-box;
+}
+.description{
+    background-color: aqua;
+    border-radius: 2px;
+    margin:4px;
+    
+    
+}
+.search{
+    margin-left: 500px;                   
+}
+.search button{
+    border-radius : 10px;
+    
+}
+.search input{
+    border-radius: 10px;
+    text-align: center;
+}
+.about{
+    background-color: aqua;
+    margin: 50px auto;
+    width: 75%;
+    border-radius:5px;
+}
+.contact{
+    background-color: aqua;
+    margin: 50px auto;
+    width:25%;
+    border-radius:5px;
+
+}
+
